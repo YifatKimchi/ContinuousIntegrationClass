@@ -53,7 +53,6 @@ def count_missing(values):
     int
         The number of missing values.
     """
-        
     values = np.asarray(values, dtype=float)
     return int(np.isnan(values).sum())
 
